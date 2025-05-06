@@ -11,8 +11,8 @@ function XO(str) {
     // return xCounter.length === oCounter.length;
     
     // Opción practica
-    const stringToLower = str.toLowerCase();
-    return stringToLower.split('x').length === stringToLower.split('o').length;
+  
+    return str.toLowerCase().split('x').length === str.toLowerCase().split('o').length;
 
     // CODIGO A CORREGIR
     // let xCounter = 0;
